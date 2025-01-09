@@ -48,4 +48,6 @@ profiles:
 
 I am a Ph.D. candidate at the Bonn Graduate School of Economics.
 
-My research interests are Computational Economics, Macroeconometrics, and International Macroeconomics.
+I will be visiting the Department of Economics at the University of Pennsylvania from January to May 2025.
+
+My research interests lie in computational economics, macroeconometrics, and international macroeconomics.
