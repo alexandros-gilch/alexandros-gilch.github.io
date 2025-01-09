@@ -40,7 +40,7 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/alexandros-gilch-2a775a236/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.de/citations?user=iBvdDg0AAAAJ&hl=de&oi=ao
 
 ---
 
