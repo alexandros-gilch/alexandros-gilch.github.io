@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/20241124_CV_Alexandros-Gilch.pdf
+        url: uploads/CV_Alexandros_Gilch.pdf
     design:
       css_class: black
       background:
