@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: 'Alexandros Gilch - University of Bonn | Last updated: January 2025. '
     license:
       enable: true
       allow_derivatives: false
