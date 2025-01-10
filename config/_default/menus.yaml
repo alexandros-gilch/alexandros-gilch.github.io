@@ -7,9 +7,9 @@ main:
   - name: About me
     url: /
     weight: 10
-  - name: Research
-    url: research/
-    weight: 30
+  # - name: Research
+  #   url: research/
+  #   weight: 30
   - name: CV
     url: uploads/CV_Alexandros_Gilch.pdf
     weight: 40

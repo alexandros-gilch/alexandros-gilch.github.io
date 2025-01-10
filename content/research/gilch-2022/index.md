@@ -1,6 +1,5 @@
 ---
-title: SPARSE TENSOR PRODUCT APPROXIMATION FOR A CLASS OF GENERALIZED METHOD OF MOMENTS
-  ESTIMATORS
+title: Sparse Tensor Product Approximation for a Class of Generalized Method of Moments Estimators
 authors:
 - Alexandros Gilch
 - Michael Griebel
@@ -13,7 +12,7 @@ publishDate: ''
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+# publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: '*International Journal for Uncertainty Quantification*'
@@ -24,7 +23,7 @@ publication_short: ""
 doi: ""
 
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: abstract
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
