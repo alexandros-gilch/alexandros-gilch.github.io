@@ -11,5 +11,5 @@ main:
     url: research/
     weight: 30
   - name: CV
-    url: cv/
+    url: uploads/CV_Alexandros_Gilch.pdf
     weight: 40
