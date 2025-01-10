@@ -8,8 +8,6 @@ main:
     url: /
     weight: 10
   - name: Research
-    url: publication/
-  - name: Research2
     url: research/
     weight: 30
   - name: CV
