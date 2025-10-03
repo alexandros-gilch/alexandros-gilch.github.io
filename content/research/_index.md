@@ -9,8 +9,7 @@ sections:
       subtitle: "Latest updates from our blog"
       text: "Stay up to date with our latest news and insights"
       filters:
-        - "publication"
-        - "featured"
+        - "research"
       count: 3
     design:
       view: "card"
