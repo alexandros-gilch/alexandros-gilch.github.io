@@ -16,3 +16,11 @@
 .article-card .article-buttons {
   margin-top: 0.5rem;
 }
+
+section#feats-1.home-section,
+section#feats-2.home-section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
