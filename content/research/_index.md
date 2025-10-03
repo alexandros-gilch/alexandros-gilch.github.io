@@ -1,21 +1,29 @@
 ---
-title: My Page
+title: "Research"
 type: landing
 
 sections:
-  - block: markdown
+  - block: features
     content:
-      title: "About This Section"
-      subtitle: "More details below"
-      text: |
-        ## Working Papers
-        **Financial Sanctions Interact(ed) with Trade Sanctions**  
-        with Christian Bayer and Farzad Saidi  
-        *Trade and ﬁnancial sanctions have played and continue to play a prominent role in geopolitics. We show empirically that there is a strong nonlinearity in their interaction. While both types of sanctions can signiﬁcantly harm the sanctioned country in terms of GDP losses, their combined eﬀect exceeds the sum of its parts. When ﬁnancial sanctions precede trade sanctions, they amplify the eﬀect of the latter, but not vice versa. We theoretically argue that this ﬁnding is related to the fact that ﬁnancial sanctions weaken the ﬁnancial sector of the sanctioned country and, thus, also amplify all other shocks, while trade sanctions are mainly an impulse.As a result, if a trade sanction is imposed after a ﬁnancial sanction, the aggregate business cycle eﬀects are exacerbated; but if a trade sanction precedes a ﬁnancial sanction, it is not ampliﬁed further.*  
-
-        [PDF](/uploads/BayerGilchSaidi-2025-Sanctions.pdf)
+      title: "Working Papers"
+      items:
+        - title: "Small Data: Inference with Occasionally Observed States"
+          text: "100–130-word abstract…"
+          actions:
+            - label: "PDF"
+              url: "/uploads/SmallData.pdf"
+            - label: "Slides"
+              url: "/uploads/SmallData_slides.pdf"
+        - title: "Financial Sanctions Interact(ed) with Trade Sanctions"
+          text: "80–120-word abstract…"
+          actions:
+            - label: "PDF"
+              url: "/uploads/Sanctions.pdf"
+        - title: "Sparse Tensor Product Approximation for a Class of GMM Estimators"
+          text: "2–3 sentence summary…"
+          actions:
+            - label: "PDF"
+              url: "/uploads/IJUQ2022.pdf"
     design:
-      columns: "1"
-      background:
-        color: "white"
+      columns: '2'   # ← this makes two columns of items
 ---
