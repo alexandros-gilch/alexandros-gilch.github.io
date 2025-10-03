@@ -64,5 +64,5 @@ features:
 
 # Load site-specific CSS overrides (files live under assets/css/)
 custom_css:
-  - css/custom.css
+  - assets/css/custom.css
   - css/research.css
