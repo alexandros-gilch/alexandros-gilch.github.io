@@ -26,9 +26,7 @@ sections:
       columns: "3"
       background:
         color: "gray-50"      
-      spacing:
-        # top, right, bottom, left
-        padding: ["-5000px", "0", "5000px", "0"]
+      css_style: "padding-top:0; padding-bottom:0;"
   - block: features
     content:
       items:
