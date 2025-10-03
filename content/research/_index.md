@@ -1,29 +1,24 @@
 ---
-title: "Research"
+title: My Page
 type: landing
 
 sections:
   - block: features
     content:
-      title: "Working Papers"
+      title: "Amazing Features"
+      text: "Discover what makes our platform special"
       items:
-        - title: "Small Data: Inference with Occasionally Observed States"
-          text: "100–130-word abstract…"
-          actions:
-            - label: "PDF"
-              url: "/uploads/SmallData.pdf"
-            - label: "Slides"
-              url: "/uploads/SmallData_slides.pdf"
-        - title: "Financial Sanctions Interact(ed) with Trade Sanctions"
-          text: "80–120-word abstract…"
-          actions:
-            - label: "PDF"
-              url: "/uploads/Sanctions.pdf"
-        - title: "Sparse Tensor Product Approximation for a Class of GMM Estimators"
-          text: "2–3 sentence summary…"
-          actions:
-            - label: "PDF"
-              url: "/uploads/IJUQ2022.pdf"
+        - name: "Fast Performance"
+          description: "Lightning-fast load times for better user experience"
+          icon: "bolt"
+        - name: "Easy to Use"
+          description: "Intuitive interface that anyone can master"
+          icon: "heart"
+        - name: "Secure"
+          description: "Enterprise-grade security built-in"
+          icon: "shield-check"
     design:
-      columns: '2'   # ← this makes two columns of items
+      columns: "3"
+      background:
+        color: "gray-50"
 ---
