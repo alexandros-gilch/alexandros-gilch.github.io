@@ -1,42 +1,45 @@
-{{/* Hugo Blox: Features2 (custom) */}}
-{{/* Based on your current template, with buttons for PDF/DOI per item */}}
+{{/* Hugo Blox: Features2 (custom, robust) */}}
 
-{{/* Initialise */}}
+{{/* Initialise (use safe defaults so missing keys don't crash) */}}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
-{{ $title := $block.content.title | emojify | $page.RenderString }}
-{{ $text := $block.content.text | emojify | $page.RenderString }}
+{{ $content := $block.content | default dict }}
+{{ $title := ($content.title | default "") | emojify | $page.RenderString }}
+{{ $text  := ($content.text  | default "") | emojify | $page.RenderString }}
+{{ $items  := $content.items  | default (slice) }}
+{{ $items2 := $content.items2 | default (slice) }}
 
 <section>
   <div class="py-0 px-4 mx-auto max-w-screen-xl sm:py-0 lg:px-6">
     <div class="max-w-screen-md mb-0 lg:mb-0 flex flex-col justify-center mx-auto">
       {{ with $title }}
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{ . }}</h2>
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{ . }}</h2>
       {{ end }}
       {{ with $text }}
-      <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-center">{{ . }}</p>
+        <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-center">{{ . }}</p>
       {{ end }}
     </div>
 
     {{/* ---------- Row 1: items ---------- */}}
+    {{ if gt (len $items) 0 }}
     <div class="space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-      {{ range $block.content.items }}
+      {{ range $items }}
         <div>
           {{ with .icon }}
-          <div class="flex justify-center items-center mb-4 w-10 h-0 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300">
-            {{ partial "functions/get_icon" (dict "name" . "attributes" `class="w-5 h-5 lg:w-6 lg:h-6"`) }}
-          </div>
+            <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300">
+              {{ partial "functions/get_icon" (dict "name" . "attributes" `class="w-5 h-5 lg:w-6 lg:h-6"`) }}
+            </div>
           {{ end }}
 
           {{ with .name }}
-          <h3 class="mb-2 text-xl font-bold dark:text-white">{{ . | $page.RenderString }}</h3>
+            <h3 class="mb-2 text-xl font-bold dark:text-white">{{ . | $page.RenderString }}</h3>
           {{ end }}
 
           {{ with .description }}
-          <p class="text-gray-500 dark:text-gray-400">{{ . | $page.RenderString }}</p>
+            <p class="text-gray-500 dark:text-gray-400">{{ . | $page.RenderString }}</p>
           {{ end }}
 
-          {{/* Buttons (flexible). Prefer .buttons; fall back to pdf_url/doi_url if provided) */}}
+          {{/* Buttons: prefer .buttons; fallback to pdf_url / doi_url */}}
           {{ with .buttons }}
             <div class="mt-4 flex flex-wrap gap-3">
               {{ range . }}
@@ -72,26 +75,27 @@
         </div>
       {{ end }}
     </div>
+    {{ end }}
 
-    {{/* ---------- Row 2: items2 (give it some top margin so rows aren’t glued) ---------- */}}
+    {{/* ---------- Row 2: items2 (with top margin so rows aren't glued) ---------- */}}
+    {{ if gt (len $items2) 0 }}
     <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-      {{ range $block.content.items2 }}
+      {{ range $items2 }}
         <div>
           {{ with .icon }}
-          <div class="flex justify-center items-center mb-4 w-10 h-0 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300">
-            {{ partial "functions/get_icon" (dict "name" . "attributes" `class="w-5 h-5 lg:w-6 lg:h-6"`) }}
-          </div>
+            <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300">
+              {{ partial "functions/get_icon" (dict "name" . "attributes" `class="w-5 h-5 lg:w-6 lg:h-6"`) }}
+            </div>
           {{ end }}
 
           {{ with .name }}
-          <h3 class="mb-2 text-xl font-bold dark:text-white">{{ . | $page.RenderString }}</h3>
+            <h3 class="mb-2 text-xl font-bold dark:text-white">{{ . | $page.RenderString }}</h3>
           {{ end }}
 
           {{ with .description }}
-          <p class="text-gray-500 dark:text-gray-400">{{ . | $page.RenderString }}</p>
+            <p class="text-gray-500 dark:text-gray-400">{{ . | $page.RenderString }}</p>
           {{ end }}
 
-          {{/* Buttons for items2 as well */}}
           {{ with .buttons }}
             <div class="mt-4 flex flex-wrap gap-3">
               {{ range . }}
@@ -127,5 +131,6 @@
         </div>
       {{ end }}
     </div>
+    {{ end }}
   </div>
 </section>
