@@ -58,3 +58,10 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+custom_css:
+  - css/custom.css
+
+theme_day: minimal    # light palette similar to classic
+font: classic         # or 'minimal' — try both
+font_size: m
