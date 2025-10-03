@@ -8,7 +8,7 @@
 {{ $title := $block.content.title | emojify | $page.RenderString }}
 {{ $text := $block.content.text | emojify | $page.RenderString }}
 
-<div class="py--100 px-4 mx-auto max-w-screen-xl sm:py-0 lg:px-6">
+<div class="py-{-100} px-4 mx-auto max-w-screen-xl sm:py-0 lg:px-6">
   <div class="max-w-screen-md mb-0 lg:mb-0 flex flex-col justify-center mx-auto">
     {{ with $title }}
     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{.}}</h2>
