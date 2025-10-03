@@ -26,7 +26,7 @@ sections:
       columns: "3"
       background:
         color: "gray-50"      
-      css_style: "padding-top:0; padding-bottom:0;"
+      css_class: "py-0 tight-feats"
   - block: features
     content:
       items:
