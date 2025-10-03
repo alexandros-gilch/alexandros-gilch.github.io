@@ -7,7 +7,7 @@ sections:
       title: "Working Papers"
       count: 50
       filters:
-        folders: ["publication"]       # pull from the Publications section
+        folders: ["research"]       # pull from the Publications section
         publication_type: "working-paper"
       sort_by: "Date"
       sort_ascending: false
@@ -20,7 +20,7 @@ sections:
       title: "Publication"
       count: 50
       filters:
-        folders: ["publication"]
+        folders: ["research"]
         publication_type: "article-journal"
       sort_by: "Date"
       sort_ascending: false
