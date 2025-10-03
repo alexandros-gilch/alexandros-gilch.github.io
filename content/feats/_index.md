@@ -13,6 +13,9 @@ sections:
     design:
       columns: "3"
       css_class: "py-0"
+      css_style: "padding-top:0!important; padding-bottom:0!important; margin-top:0; margin-bottom:0;"
+      spacing:
+        padding: ["0","0","0","0"]
       background:
         color: "gray-50"
   - block: features
