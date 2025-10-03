@@ -28,7 +28,7 @@ sections:
         color: "gray-50"      
       spacing:
         # top, right, bottom, left
-        padding: ["-50px", "0", "-50px", "0"]
+        padding: ["-5000px", "0", "5000px", "0"]
   - block: features
     content:
       items:
