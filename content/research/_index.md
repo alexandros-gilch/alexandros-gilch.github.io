@@ -19,7 +19,10 @@ sections:
           description: "
           *with Christian Bayer and Farzad Saidi*
           <br>
-          Trade and financial sanctions have played and continue to play a prominent role in geopolitics. We show empirically that there is a strong nonlinearity in their interaction. While both types of sanctions can significantly harm the sanctioned country in terms of GDP losses, their combined effect exceeds the sum of its parts. When financial sanctions precede trade sanctions, they amplify the effect of the latter, but not vice versa. We theoretically argue that this finding is related to the fact that financial sanctions weaken the financial sector of the sanctioned country and, thus, also amplify all other shocks, while trade sanctions are mainly an impulse. As a result, if a trade sanction is imposed after a financial sanction, the aggregate business cycle effects are exacerbated; but if a trade sanction precedes a financial sanction, it is not amplified further"
+          Trade and financial sanctions have played and continue to play a prominent role in geopolitics. We show empirically that there is a strong nonlinearity in their interaction. While both types of sanctions can significantly harm the sanctioned country in terms of GDP losses, their combined effect exceeds the sum of its parts. When financial sanctions precede trade sanctions, they amplify the effect of the latter, but not vice versa. We theoretically argue that this finding is related to the fact that financial sanctions weaken the financial sector of the sanctioned country and, thus, also amplify all other shocks, while trade sanctions are mainly an impulse. As a result, if a trade sanction is imposed after a financial sanction, the aggregate business cycle effects are exacerbated; but if a trade sanction precedes a financial sanction, it is not amplified further
+          <br>
+          <br>
+          <a href="/uploads/BayerGilchSaidi-2025-Sanctions.pdf"><span class="text-blue-600 underline font-semibold">PDF</span></a>"
         - name: ""
           description: "![image](/uploads/event-study-finb4trade.png)"
         - name: ""
