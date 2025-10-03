@@ -10,9 +10,6 @@ main:
   - name: Research
     url: research/
     weight: 30
-  - name: feats
-    url: feats/
-    weight: 30
   - name: CV
     url: uploads/CV_Alexandros_Gilch.pdf
     weight: 40
