@@ -3,15 +3,22 @@ title: My Page
 type: landing
 
 sections:
-  - block: collection
+  - block: markdown
     content:
-      title: "Recent Posts"
-      subtitle: "Latest updates from our blog"
-      text: "Stay up to date with our latest news and insights"
-      filters:
-        - "research"
-      count: 3
+      title: "About This Section"
+      subtitle: "More details below"
+      text: |
+        ## Welcome
+        
+        This is **markdown content** that you can edit.
+        
+        - Create lists
+        - Add links
+        - Format text
+        
+        [Learn more](https://example.com)
     design:
-      view: "card"
-      columns: "3"
+      columns: "1"
+      background:
+        color: "white"
 ---
