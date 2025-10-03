@@ -25,8 +25,7 @@ sections:
     design:
       columns: "3"
       background:
-        color: "gray-50"
-            
+        color: "gray-50"      
       spacing:
         # top, right, bottom, left
         padding: ["1px", "0", "1px", "0"]
