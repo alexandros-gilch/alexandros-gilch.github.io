@@ -12,6 +12,7 @@ sections:
         - description: "[PDF](/uploads/Gilch-etal-2025-AsympOccObs.pdf) "
     design:
       columns: "3"
+      css_class: "py-0"
       background:
         color: "gray-50"
   - block: features
@@ -26,7 +27,7 @@ sections:
       columns: "3"
       background:
         color: "gray-50"      
-      css_class: "py-0 tight-feats"
+      css_class: "py-0"
   - block: features
     content:
       items:
