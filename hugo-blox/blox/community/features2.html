@@ -18,7 +18,8 @@
       <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-center">{{.}}</p>
       {{ end }}
     </div>
-    <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+    <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid lg:[grid-template-columns:1fr_1.6fr_1fr]">
+
       {{ range $block.content.items }}
         <div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">{{ .name | $page.RenderString }}</h3>
