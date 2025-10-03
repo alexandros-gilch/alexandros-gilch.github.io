@@ -18,7 +18,7 @@ sections:
         
         [Learn more](https://example.com)
     design:
-      columns: "1"
+      columns: "2"
       background:
         color: "white"
 ---
