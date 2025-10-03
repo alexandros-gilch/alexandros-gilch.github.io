@@ -1,0 +1,26 @@
+/* Narrow the content width a touch */
+.max-w-prose, .container, main .px-6 {
+  max-width: 820px;
+}
+
+/* Left-align card content & tighten spacing */
+.section .grid > * {
+  margin-bottom: 1.25rem;
+}
+.article-card .summary, .article-card .content {
+  text-align: left;
+  line-height: 1.55;
+}
+
+/* Make the “PDF” button sit closer to the text */
+.article-card .article-buttons {
+  margin-top: 0.5rem;
+}
+
+section#feats-1.home-section,
+section#feats-2.home-section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
