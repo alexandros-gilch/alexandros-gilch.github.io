@@ -8,17 +8,25 @@ sections:
       title: "Amazing Features"
       text: "Discover what makes our platform special"
       items:
-        - name: "Fast Performance"
-          description: "Lightning-fast load times for better user experience"
-          icon: "bolt"
+        - name: "Working Papers"
         - name: "Easy to Use"
           description: "Intuitive interface that anyone can master"
-          icon: "heart"
         - name: "Secure"
-          description: "Enterprise-grade security built-in"
-          icon: "shield-check"
+          description: "[PDF](/uploads/Gilch-etal-2025-AsympOccObs.pdf) "
     design:
       columns: "3"
+      background:
+        color: "gray-50"
+  - block: features
+    content:
+      title: "Working Papers"
+      text: "Discover what makes our platform special"
+      items:
+        - name: "Working Papers"
+        - name: "Easy to Use"
+          description: "Intuitive interface that anyone can master"
+    design:
+      columns: "2"
       background:
         color: "gray-50"
 ---
