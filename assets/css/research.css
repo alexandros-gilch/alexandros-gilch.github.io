@@ -1,0 +1,25 @@
+/* Responsive grid: 1 col on mobile, 2 cols on desktop */
+.ag-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+}
+@media (min-width: 900px) {
+  .ag-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem 2.2rem;
+  }
+}
+
+/* Paper tile styling — calm, left-aligned, minimal */
+.paper { padding: 0.25rem 0 1rem; border-top: 1px solid var(--ag-border); }
+.paper h3 { margin: 0 0 .25rem; font-weight: 600; line-height: 1.25; }
+.paper .authors { margin: .1rem 0 .55rem; font-style: italic; opacity: .9; }
+.paper .abstract { margin: .3rem 0 .6rem; line-height: 1.55; }
+.paper .links a { text-decoration: underline; }
+
+/* Subtle light/dark aware border */
+:root { --ag-border: rgba(0,0,0,.1); }
+@media (prefers-color-scheme: dark) {
+  :root { --ag-border: rgba(255,255,255,.15); }
+}

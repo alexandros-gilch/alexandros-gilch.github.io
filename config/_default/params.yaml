@@ -1,12 +1,15 @@
 # SITE SETUP
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 appearance:
   mode: system
   color: emerald
+  theme_day: minimal      # light palette similar to classic
+  theme_night: minimal    # optional: keep dark mode consistent
+  font: classic           # or 'minimal' — try both
+  font_size: m
 
 # SEO
 marketing:
@@ -15,7 +18,7 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: ''
-    twitter: 'GetResearchDev'
+    twitter: ''           # put your @ handle here or leave blank
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -40,7 +43,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: 'Alexandros Gilch - University of Bonn | Last updated: January 2025. '
+    notice: 'Alexandros Gilch - University of Bonn | Last updated: October 2025.'
     license:
       enable: true
       allow_derivatives: false
@@ -59,9 +62,7 @@ features:
   privacy_pack:
     enable: false
 
+# Load site-specific CSS overrides (files live under assets/css/)
 custom_css:
   - css/custom.css
-
-theme_day: minimal    # light palette similar to classic
-font: classic         # or 'minimal' — try both
-font_size: m
+  - css/research.css
