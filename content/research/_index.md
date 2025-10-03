@@ -24,10 +24,10 @@ sections:
       items2:
         - name: 
         - name: "Asymptotic Properties of the Maximum Likelihood Estimator under Occasionally Observed States"
-          description: "
-          Estimating Markov models with hidden state variables presents significant challenges because the likelihood involves a high-dimensional integral over the unobserved states. This complication renders the standard approach to prove the asymptotic properties of the likelihood-based estimator infeasible, because it relies on a log-transformation of the likelihood function. Moreover, the need to numerically approximate the integral in the likelihood function introduces an additional source of error in the estimation process. In this paper, we demonstrate how occasional observations of the hidden state restore the feasibility of the log-likelihood approach or establishing asymptotic properties, thereby extending existing results to general state spaces for the hidden state. Further, we show that, given consistency and asymptotic normality of the exact estimator, the desired properties can be extended to the estimator based on the approximated likelihood.\n
-          \n
-          [PDF](/uploads/Gilch-etal-2025-AsympOccObs.pdf)"
+          description: |-
+            Estimating Markov models with hidden state variables presents significant challenges because the likelihood involves a high-dimensional integral over the unobserved states. This complication renders the standard approach to prove the asymptotic properties of the likelihood-based estimator infeasible, because it relies on a log-transformation of the likelihood function. Moreover, the need to numerically approximate the integral in the likelihood function introduces an additional source of error in the estimation process. In this paper, we demonstrate how occasional observations of the hidden state restore the feasibility of the log-likelihood approach or establishing asymptotic properties, thereby extending existing results to general state spaces for the hidden state. Further, we show that, given consistency and asymptotic normality of the exact estimator, the desired properties can be extended to the estimator based on the approximated likelihood.\n
+            \n
+            [PDF](/uploads/Gilch-etal-2025-AsympOccObs.pdf)
         - name: ""
           description: "![image](/uploads/event-study-finb4trade.png)"
   - block: features2
