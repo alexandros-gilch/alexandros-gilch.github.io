@@ -18,6 +18,9 @@ sections:
       button:
         text: Download CV
         url: uploads/CV_Alexandros_Gilch.pdf
+      button:
+        text: Download CV
+        url: uploads/CV_Alexandros_Gilch.pdf
     design:
       css_class: black
       background:
