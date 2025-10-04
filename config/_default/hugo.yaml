@@ -53,4 +53,5 @@ markup:
 security:
   _merge: deep
 sitemap:
+  filename: sitemap.xml
   _merge: deep
