@@ -89,6 +89,12 @@ jobs:
         if [ -f "package.json" ] && grep -q "pagefind" package.json; then
           pnpm dlx pagefind --source "public" || npx pagefind --source "public"
         fi
+    - name: Show final sitemap in artifact
+      run: |
+        echo "----- ls public -----"
+        ls -la public | sed -n '1,120p'
+        echo "----- /public/sitemap.xml (first 200 lines) -----"
+        sed -n '1,200p' public/sitemap.xml
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v4
