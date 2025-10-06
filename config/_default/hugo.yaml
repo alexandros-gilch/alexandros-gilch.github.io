@@ -55,5 +55,3 @@ security:
 sitemap:
   filename: sitemap.xml
   _merge: deep
-# disableKinds:
-#   - sitemap
