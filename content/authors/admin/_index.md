@@ -48,6 +48,6 @@ profiles:
 
 I am a Ph.D. candidate at the Bonn Graduate School of Economics.
 
-I will be on the academic job market in 2025.
+I am on the academic job market in 2025.
 
 My research interests lie in computational economics, (international) macroeconomics, and structural econometrics.

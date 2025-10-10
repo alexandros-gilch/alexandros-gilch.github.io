@@ -9,32 +9,15 @@ sections:
       items:
         - name: "Job Market Paper"
         - name: "Inference for Missing Data with State-Space Models"
-          description: ""
-        - name: ""
-        - name: "Working Papers"
-        - name: "Financial Sanctions Interact(ed) with Trade Sanctions"
           description: "
-          *with Christian Bayer and Farzad Saidi*
+          *with Gregor Reich*
           <br>
           <br>
-          Trade and financial sanctions have played and continue to play a prominent role in geopolitics. We show empirically that there is a strong nonlinearity in their interaction. While both types of sanctions can significantly harm the sanctioned country in terms of GDP losses, their combined effect exceeds the sum of its parts. When financial sanctions precede trade sanctions, they amplify the effect of the latter, but not vice versa. We theoretically argue that this finding is related to the fact that financial sanctions weaken the financial sector of the sanctioned country and, thus, also amplify all other shocks, while trade sanctions are mainly an impulse. As a result, if a trade sanction is imposed after a financial sanction, the aggregate business cycle effects are exacerbated; but if a trade sanction precedes a financial sanction, it is not amplified further
+          Nonlinear, non-Gaussian state-space models are a standard tool for analyzing time series or panel data with latent state variables, but estimating their parameters and, even more so, the latent states is challenging. We provide a comprehensive methodology to estimate the latent states, particularly addressing two issues: First, because the latent state is serially correlated, accurate point estimators and prediction bands require evaluating high-dimensional integrals arising from marginalizing the latent path. We propose a deterministic recursive quadrature and interpolation (RQI) algorithm to approximate these integrals, exploiting the efficiency of lower-dimensional numerical algorithms. Second, ignoring uncertainty about the model parametrization yields overconfident prediction bands. We develop a framework of prediction-band unions that incorporate parameter uncertainty, which can be computed via a sequence of constrained optimization problems solvable with off-the-shelf packages. We demonstrate the efficiency of RQI in extensive Monte Carlo studies for a Stochastic Volatility model, benchmarking against RQI a popular particle smoothing algorithm. Finally, we conduct full predictive inference for a sequence of endogenously unobserved prices using data from a steel-trading firm and a dynamic profit-maximization model.
           <br>
           <br>
-          [**PDF**](/uploads/BayerGilchSaidi-2025-Sanctions.pdf)"
+          [**PDF**](/uploads/JMP_Gilch.pdf)"
         - name: ""
-          description: "![image](/uploads/event-study-finb4trade.png)"
-        - name: 
-        - name: "Asymptotic Properties of the Maximum Likelihood Estimator under Occasionally Observed States"
-          description: "
-          *with Gregor Reich and Ole Wilms*
-          <br>
-          <br>
-          Estimating Markov models with hidden state variables presents significant challenges because the likelihood involves a high-dimensional integral over the unobserved states. This complication renders the standard approach to prove the asymptotic properties of the likelihood-based estimator infeasible, because it relies on a log-transformation of the likelihood function. Moreover, the need to numerically approximate the integral in the likelihood function introduces an additional source of error in the estimation process. In this paper, we demonstrate how occasional observations of the hidden state restore the feasibility of the log-likelihood approach or establishing asymptotic properties, thereby extending existing results to general state spaces for the hidden state. Further, we show that, given consistency and asymptotic normality of the exact estimator, the desired properties can be extended to the estimator based on the approximated likelihood.
-          <br>
-          <br>
-          [**PDF**](/uploads/Gilch-etal-2025-AsympOccObs.pdf)"
-        - name: ""
-          description: "![image](/uploads/eq-asymp-occ-obs.jpg)"
         - name: "Publications"
         - name: "Small Data: Inference with Occasionally Observed States"
           description: "
@@ -65,4 +48,28 @@ sections:
           [**DOI**](https://www.doi.org/10.1615/Int.J.UncertaintyQuantification.2021037549) · [**PDF**](/uploads/GilchGriebel-2021-SparseProductApprox.pdf)"
         - name: ""
           description: "![image](/uploads/quad-gmm-convergence.jpg)"
+        - name: "Working Papers"
+        - name: "Financial Sanctions Interact(ed) with Trade Sanctions"
+          description: "
+          *with Christian Bayer and Farzad Saidi*
+          <br>
+          <br>
+          Trade and financial sanctions have played and continue to play a prominent role in geopolitics. We show empirically that there is a strong nonlinearity in their interaction. While both types of sanctions can significantly harm the sanctioned country in terms of GDP losses, their combined effect exceeds the sum of its parts. When financial sanctions precede trade sanctions, they amplify the effect of the latter, but not vice versa. We theoretically argue that this finding is related to the fact that financial sanctions weaken the financial sector of the sanctioned country and, thus, also amplify all other shocks, while trade sanctions are mainly an impulse. As a result, if a trade sanction is imposed after a financial sanction, the aggregate business cycle effects are exacerbated; but if a trade sanction precedes a financial sanction, it is not amplified further
+          <br>
+          <br>
+          [**PDF**](/uploads/BayerGilchSaidi-2025-Sanctions.pdf)"
+        - name: ""
+          description: "![image](/uploads/event-study-finb4trade.png)"
+        - name: "Work in progress"
+        - name: "Asymptotic Properties of the Maximum Likelihood Estimator under Occasionally Observed States"
+          description: "
+          *with Gregor Reich and Ole Wilms*
+          <br>
+          <br>
+          Estimating Markov models with hidden state variables presents significant challenges because the likelihood involves a high-dimensional integral over the unobserved states. This complication renders the standard approach to prove the asymptotic properties of the likelihood-based estimator infeasible, because it relies on a log-transformation of the likelihood function. Moreover, the need to numerically approximate the integral in the likelihood function introduces an additional source of error in the estimation process. In this paper, we demonstrate how occasional observations of the hidden state restore the feasibility of the log-likelihood approach or establishing asymptotic properties, thereby extending existing results to general state spaces for the hidden state. Further, we show that, given consistency and asymptotic normality of the exact estimator, the desired properties can be extended to the estimator based on the approximated likelihood.
+          <br>
+          <br>
+          [**PDF**](/uploads/Gilch-etal-2025-AsympOccObs.pdf)"
+        - name: ""
+          description: "![image](/uploads/eq-asymp-occ-obs.jpg)"
 ---
