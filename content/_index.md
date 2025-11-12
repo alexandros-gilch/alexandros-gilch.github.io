@@ -22,7 +22,7 @@ sections:
         text: Download JMP
         url: uploads/JMP_Gilch.pdf
     design:
-      css_class: black
+      # css_class: black
       background:
     # Choose a color such as from https://html-color-codes.info
         color: white
