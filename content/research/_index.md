@@ -18,7 +18,7 @@ sections:
           <br>
           [**PDF**](/uploads/JMP_Gilch.pdf)"
         - name: ""
-          description: "![image](/uploads/PU-vs-plugin-band-T20-nox0.png)"
+          description: "![image](/uploads/3_pu.png)"
         - name: "Publications"
         - name: "Small Data: Inference with Occasionally Observed States"
           description: "

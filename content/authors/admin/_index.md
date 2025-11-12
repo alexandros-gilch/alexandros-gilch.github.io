@@ -50,4 +50,4 @@ I am a Ph.D. candidate at the Bonn Graduate School of Economics.
 
 I am on the academic job market in 2025.
 
-My research interests lie in computational economics, (international) macroeconomics, and structural econometrics.
+My research interests lie in computational economics, structural econometrics, and (international) macroeconomics.
