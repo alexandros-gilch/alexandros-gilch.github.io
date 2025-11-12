@@ -27,7 +27,7 @@
     </div>
     
     <!-- <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"> -->
-    <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-uneven-3 md:gap-12 md:space-y-0">
+    <div class="mt-8 md:mt-12 space-y-4 md:space-y-0 grid-uneven-3">
       {{ range $block.content.items }}
         <div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">{{ .name | $page.RenderString }}</h3>
@@ -35,7 +35,8 @@
         </div>
       {{ end }}
     </div>
-    <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+    <div class="mt-8 md:mt-12 space-y-4 md:space-y-0 grid-uneven-3">
+    <!-- <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"> -->
       {{ range $block.content.items2 }}
         <div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">{{ .name | $page.RenderString }}</h3>
