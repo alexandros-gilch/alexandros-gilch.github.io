@@ -4,6 +4,17 @@
 {{ $title := $block.content.title | emojify | $page.RenderString }}
 {{ $text := $block.content.text | emojify | $page.RenderString }}
 
+<style>
+/* 3 uneven columns from md (≥768px) and up — scoped to this section */
+@media (min-width: 768px) {
+  .features-uneven .grid-uneven-3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* tweak ratios here */
+    gap: 3rem; /* like md:gap-12 */
+  }
+}
+</style>
+
 <section>
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <div class="max-w-screen-md mb-0 lg:mb-0 flex flex-col justify-center mx-auto">
@@ -16,7 +27,7 @@
     </div>
     
     <!-- <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"> -->
-    <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid md:[grid-template-columns:1fr_3fr_1fr] md:gap-12 md:space-y-0">
+    <div class="mt-8 md:mt-12 space-y-4 md:grid md:grid-uneven-3 md:gap-12 md:space-y-0">
       {{ range $block.content.items }}
         <div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">{{ .name | $page.RenderString }}</h3>
