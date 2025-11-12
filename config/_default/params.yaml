@@ -4,7 +4,7 @@
 
 # Appearance
 appearance:
-  mode: system
+  mode: light
   color: emerald
   theme_day: minimal      # light palette similar to classic
   theme_night: minimal    # optional: keep dark mode consistent
