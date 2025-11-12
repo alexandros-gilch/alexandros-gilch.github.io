@@ -15,12 +15,12 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
+      # button:
+      #   text: Download CV
+      #   url: uploads/CV_Alexandros_Gilch.pdf
       button:
-        text: Download CV
-        url: uploads/CV_Alexandros_Gilch.pdf
-      button:
-        text: Download CV
-        url: uploads/CV_Alexandros_Gilch.pdf
+        text: Download JMP
+        url: uploads/JMP_Gilch.pdf
     design:
       css_class: black
       background:
