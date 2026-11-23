@@ -19,7 +19,11 @@
 
 
 <style>
-  .avatar-wrapper {
+  .resume-biography .avatar-wrapper {
+    /* Reserve the full displayed portrait size rather than the theme's 150px box. */
+    width: fit-content;
+    height: auto;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
