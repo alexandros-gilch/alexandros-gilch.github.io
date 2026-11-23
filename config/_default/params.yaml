@@ -17,7 +17,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Ph.D: student at University of Bonn'
+    description: 'Economist at the German Council of Economic Experts (Sachverständigenrat Wirtschaft)'
     twitter: ''           # put your @ handle here or leave blank
   analytics:
     google_analytics: ''
@@ -43,7 +43,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: 'Alexandros Gilch - University of Bonn | Last updated: October 2025.'
+    notice: 'Alexandros Gilch - German Council of Economic Experts (Sachverständigenrat Wirtschaft) | Last updated: November 23, 2026.'
     license:
       enable: true
       allow_derivatives: false

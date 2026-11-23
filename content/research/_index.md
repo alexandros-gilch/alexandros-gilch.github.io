@@ -7,7 +7,21 @@ sections:
     content:
       title: "Research"
       items:
-        - name: "Job Market Paper"
+        - name: "Working Papers"
+        - name: "Financial Sanctions Interact(ed) with Trade Sanctions"
+          description: "
+          *with Christian Bayer and Farzad Saidi*
+          <br>
+          **Revise and resubmit, Journal of International Economics**
+          <br>
+          <br>
+          Trade and financial sanctions have played and continue to play a prominent role in geopolitics. We show empirically that there is a strong nonlinearity in their interaction. While both types of sanctions can significantly harm the sanctioned country in terms of GDP losses, their combined effect exceeds the sum of its parts. When financial sanctions precede trade sanctions, they amplify the effect of the latter, but not vice versa. We theoretically argue that this finding is related to the fact that financial sanctions weaken the financial sector of the sanctioned country and, thus, also amplify all other shocks, while trade sanctions are mainly an impulse. As a result, if a trade sanction is imposed after a financial sanction, the aggregate business cycle effects are exacerbated; but if a trade sanction precedes a financial sanction, it is not amplified further
+          <br>
+          <br>
+          [**PDF**](/uploads/BayerGilchSaidi-2025-Sanctions.pdf)"
+        - name: ""
+          description: "![image](/uploads/event-study-finb4trade.png)"
+        - name: ""
         - name: "Inference for Missing Data with State-Space Models"
           description: "
           *with Gregor Reich*
@@ -49,18 +63,6 @@ sections:
           [**DOI**](https://www.doi.org/10.1615/Int.J.UncertaintyQuantification.2021037549) · [**PDF**](/uploads/GilchGriebel-2021-SparseProductApprox.pdf)"
         - name: ""
           description: "![image](/uploads/quad-gmm-convergence.jpg)"
-        - name: "Working Papers"
-        - name: "Financial Sanctions Interact(ed) with Trade Sanctions"
-          description: "
-          *with Christian Bayer and Farzad Saidi*
-          <br>
-          <br>
-          Trade and financial sanctions have played and continue to play a prominent role in geopolitics. We show empirically that there is a strong nonlinearity in their interaction. While both types of sanctions can significantly harm the sanctioned country in terms of GDP losses, their combined effect exceeds the sum of its parts. When financial sanctions precede trade sanctions, they amplify the effect of the latter, but not vice versa. We theoretically argue that this finding is related to the fact that financial sanctions weaken the financial sector of the sanctioned country and, thus, also amplify all other shocks, while trade sanctions are mainly an impulse. As a result, if a trade sanction is imposed after a financial sanction, the aggregate business cycle effects are exacerbated; but if a trade sanction precedes a financial sanction, it is not amplified further
-          <br>
-          <br>
-          [**PDF**](/uploads/BayerGilchSaidi-2025-Sanctions.pdf)"
-        - name: ""
-          description: "![image](/uploads/event-study-finb4trade.png)"
         - name: "Work in progress"
         - name: "Asymptotic Properties of the Maximum Likelihood Estimator under Occasionally Observed States"
           description: "

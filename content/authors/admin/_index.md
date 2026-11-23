@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD student
+role: Economist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Bonn Graduate School of Economics
-    url: https://www.bgse.uni-bonn.de/en
+  - name: German Council of Economic Experts (Sachverständigenrat Wirtschaft)
+    url: https://www.sachverstaendigenrat-wirtschaft.de/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alexandros.gilch@uni-bonn.de'
+    url: 'mailto:alexandros.gilch@svr-wirtschaft.de'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/AlexandrosGilch
@@ -46,8 +46,4 @@ profiles:
 
 # Welcome!
 
-I am a Ph.D. candidate at the Bonn Graduate School of Economics.
-
-I am on the academic job market in 2025.
-
-My research interests lie in computational economics, structural econometrics, and macroeconomics.
+I am an economist at the German Council of Economic Experts (Sachverständigenrat Wirtschaft), working on macroeconomics. I received my PhD in Economics from the University of Bonn. My research interests lie in international economics, macroeconomics, and computational economics.

@@ -19,8 +19,8 @@ sections:
       #   text: Download CV
       #   url: uploads/CV_Alexandros_Gilch.pdf
       button:
-        text: Download JMP
-        url: uploads/JMP_Gilch.pdf
+        text: Research
+        url: /research/
     design:
       # css_class: black
       background:
